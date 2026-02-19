@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Moo+Lah+Lah&family=Oi&family=Rubik+Distressed&family=Rubik+Puddles&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+<h1 id="title">Wanderlog</h1>
+
+        <ul>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 id="main-title">* was here</h1>
+    </header>
+
+
+    <main class="content destination-form">
+        <div class="form-container">
+            <form id="destination-form">
+                <h2>Enter the details of a place you have been to</h2>
+
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Enter your first name" required maxlength="10">
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="destination" placeholder="Destination" required>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="landmarks" placeholder="landmarks" required>
+            </div>
+
+             <div class="input-group">
+                <input type="text" id="time" placeholder="Time of year to visit" required >
+            </div>
+
+             <div class="input-group">
+                <input type="text" id="country" placeholder="Country  the landmark is in" requiredsd>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="review" placeholder="Leave a review" >
+            </div>
+
+            <button type="submit" id="submit">Add destination</button>
+            <p id="message"></p>
+            
+        </form>
+    </div>
+
+    </main><hr>
+<div id="destination-container" class="card-grid">
+  </div>
+  <footer class="main-footer">
+    <div class="footer-content">
+        <p class="footer-logo">Was Here.</p>
+        <p class="footer-tagline">Leave nothing but footprints. Take nothing but memories.</p>
+        <div class="footer-credits">
+            <span>&copy; 2026 Your Name</span>
+            <span class="separator">|</span>
+            <a href="#">Privacy</a>
+            <a href="#">Terms of the Road</a>
+        </div>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>

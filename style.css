@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #fff;
+    margin-bottom: 3rem; 
+    background-color: black;
+}
+a{
+    color: #a3b18a;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+ 
+    
+}
+h1{
+    font-size: 7.8rem;
+    margin-bottom: 1rem;
+    color:  #a3b18a;;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Rubik Distressed", system-ui;
+    letter-spacing: 2px;
+
+}
+.content.destination-form {
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0; 
+    background-color: #734444;
+    font-family: sans-serif;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.form-container {
+    background: #99b27f; 
+    backdrop-filter: blur(10px); 
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+.about-page {
+    max-width: 1000px;
+    background: #99b27f; 
+    backdrop-filter: blur(10px); 
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.form-container h2 {
+    color: black;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+     font-family: "Rubik Distressed", system-ui;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: #c37857;
+}
+
+#submit {
+    width: 100%;
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
+    background: #000; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.submit:hover {
+    transform: scale(1.05);
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+.about-card {
+    background: #99b27f; 
+    max-width: 800px; 
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.about-card h2 {
+    font-family: "Rubik Distressed", system-ui;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.8; /
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+    text-align: left; 
+}
+
+.card-grid {
+    display: grid;
+   
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.destination-card {
+    background-color: #a3b18a; 
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+
+.card-content-box {
+    background-color: #cd8462; 
+    border-radius: 25px;
+    padding: 8px 15px;
+    color: #2b2d42; 
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card-title {
+    font-family: 'Rubik Distressed', cursive; 
+    font-size: 1.4rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.card-label {
+    font-weight: bold;
+    display: block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.delete-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    width: 100%; 
+}
+
+.delete-btn:hover {
+    background-color: #ff4d4d;
+}
+
+
+
+.main-footer {
+    background-color: #1a1a1a; 
+    color: #99b27f; /
+    padding: 3rem 1rem;
+    margin-top: auto; 
+    border-top: 1px solid rgba(153, 178, 127, 0.2);
+    font-family: sans-serif;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+
+
+.footer-logo {
+    font-family: "Rubik Distressed", system-ui;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 0.5rem;
+}
+
+.footer-tagline {
+    font-style: italic;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-bottom: 2rem;
+}
+
+.footer-credits {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer-credits a {
+    color: #99b27f;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: normal;
+    transition: opacity 0.3s;
+}
+
+.footer-credits a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.separator {
+    opacity: 0.3;
+}
+#title {
+    font-family: "Rubik Distressed", system-ui;
+    font-size: 2rem;
+    text-align: center;
+    color: #a3b18a;
+}
