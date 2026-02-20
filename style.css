@@ -156,16 +156,19 @@ body {
 }
 
 
-.destination-card {
-    background-color: #a3b18a; 
+.destination-card { 
     border-radius: 20px;
     padding: 20px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: center;
-}
+    border-radius: 20px;
+    background: linear-gradient(145deg, #939f7c, #aebd94);
+    box-shadow:  5px 5px 0px #899574,
+                -5px -5px 0px #bdcda0;
+v
+    }
 
 
 .card-content-box {
