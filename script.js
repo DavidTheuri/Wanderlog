@@ -56,7 +56,7 @@ document.getElementById("submit").onclick = function(event) {
         document.getElementById("review").value
     );
 
-    document.getElementById("main-title").textContent = newPlace.name + " was here";
+    document.getElementById("footer-logo").textContent = newPlace.name + " was here";
 
     savedDestinations.push(newPlace);
     localStorage.setItem("myPlaces", JSON.stringify(savedDestinations));
